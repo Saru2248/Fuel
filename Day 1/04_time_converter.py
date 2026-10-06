@@ -16,5 +16,6 @@ minutes = remaining_seconds // 60
 # Remaining seconds after extracting minutes
 seconds = remaining_seconds % 60
 
-# Display the converted time using f-strings
+# Display the converted time
 print(f"{total_seconds} seconds = {hours} hour(s), {minutes} minute(s), {seconds} second(s)")
+

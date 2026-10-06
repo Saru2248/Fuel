@@ -14,10 +14,11 @@ gst = subtotal * 0.18
 # Calculate final amount
 final_amount = subtotal + gst
 
-# Print bill details using f-strings
+# Print the bill details using f-strings
 print("\n--- Bill Summary ---")
 print(f"Price per item : {price}")
 print(f"Quantity       : {quantity}")
 print(f"Subtotal       : {subtotal}")
 print(f"GST (18%)      : {gst}")
 print(f"Final Amount   : {final_amount}")
+
